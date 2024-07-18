@@ -53,7 +53,7 @@ function setActiveButton(activeButton) {
 
 function loadAlbumInfo(album){
     const image = document.createElement("img")
-    image.src = album.capa
+    image.src = album.cover
     image.alt = `Capa do album ${album.name}`
     image.className = "content-image"
 
