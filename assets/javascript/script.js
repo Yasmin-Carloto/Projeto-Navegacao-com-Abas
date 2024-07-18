@@ -7,7 +7,7 @@ function fetchAlbuns(){
     const url = '../../taylor-albums.json'
     const ajax = new XMLHttpRequest()
 
-    ajax.open('GET', url)
+    ajax.open('GET', "taylor-albums.json")
 
     ajax.onreadystatechange = () => {
         if(ajax.readyState == 4 && ajax.status == 200){
