@@ -4,7 +4,7 @@ const containerAlbumInfo = document.getElementById("content")
 const buttonsContainer = document.getElementById("tab-buttons")
 
 function fetchAlbuns(){
-    const url = 'http://localhost:3000/albuns'
+    const url = '../../taylor-albums.json'
     const ajax = new XMLHttpRequest()
 
     ajax.open('GET', url)
