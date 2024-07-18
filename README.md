@@ -3,7 +3,7 @@
 Esse projeto tem por objetivo treinar a utilização requisições assíncronas usando o AJAX.
 
 ## Acessar Divider
-A Landing Page do Divider está hospedado no Github Pages neste link: []()
+A Landing Page do Divider está hospedado no Github Pages neste link: [https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/](https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/)
 
 ## Tecnologias usadas no projeto
 * HTML 
@@ -15,15 +15,9 @@ A Landing Page do Divider está hospedado no Github Pages neste link: []()
 
 1. Coloque no terminal:
 ```
-git clone 
+git clone https://github.com/Yasmin-Carloto/Projeto-Navegacao-com-Abas.git
 ```
 
 2. Abrir com o VS CODE (ou IDE de preferência)
 
-3. Abrir terminal com o caminho do projeto e digitar:
-```
-npm install -g json-server
-json-server --watch taylor-albums.json
-```
-
-4. Abrir o arquivo "index.html" em seu navegdor.
+3. Abrir o arquivo "index.html" em seu navegdor.
