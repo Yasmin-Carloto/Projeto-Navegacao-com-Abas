@@ -94,10 +94,4 @@ function loadAlbumInfo(album){
     contentTabContainer.style.backgroundColor = album.secondary_color
 }
 
-function removeActive(elementsList){
-    elementsList.forEach(element => {
-        element.classList.remove("active")
-    })
-}
-
 fetchAlbums()
