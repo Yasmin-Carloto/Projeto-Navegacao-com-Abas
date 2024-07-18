@@ -1,9 +1,9 @@
 # Projeto de Navegação com Abas
 
-Esse projeto tem por objetivo treinar a utilização requisições assíncronas usando o AJAX.
+Esse projeto, feito para a Trilha Desenvolvedor Jr. da +praTi, tem por objetivo treinar a utilização requisições assíncronas usando o AJAX. 
 
-## Acessar Divider
-A Landing Page do Divider está hospedado no Github Pages neste link: [https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/](https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/)
+## Acessar o Projeto de Navegação com Abas
+O Projeto de Navegação com Abas está hospedado no Github Pages neste link: [https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/](https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/)
 
 ## Tecnologias usadas no projeto
 * HTML 
