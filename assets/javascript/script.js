@@ -7,12 +7,11 @@ function fetchAlbuns(){
     const url = '../../taylor-albums.json'
     const ajax = new XMLHttpRequest()
 
-    ajax.open('GET', "taylor-albums.json")
+    ajax.open('GET', "../../taylor-albums.json")
 
     ajax.onreadystatechange = () => {
         if(ajax.readyState == 4 && ajax.status == 200){
-            const jsonResponse = JSON.parse(ajax.responseText)
-            loadButtons(jsonResponse)
+            loadButtons(JSON.parse(ajax.responseText).albuns)
         }else{
             console.error("Json não pôde ser carregado.")
         }
