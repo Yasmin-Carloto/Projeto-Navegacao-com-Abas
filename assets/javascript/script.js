@@ -7,8 +7,6 @@ function fetchAlbums(){
     const url = 'https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/taylor-albums.json'
     const ajax = new XMLHttpRequest()
 
-// "../../taylor-albums.json"
-
     ajax.open('GET', url)
 
     ajax.onreadystatechange = () => {
