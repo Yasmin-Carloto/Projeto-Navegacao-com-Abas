@@ -1,0 +1,93 @@
+{
+    "albuns": [
+      {
+        "nome": "Taylor Swift",
+        "descricao": "Álbum de estreia de Taylor Swift, lançado em 2006. É um álbum country-pop que inclui hits como 'Tim McGraw' e 'Teardrops on My Guitar'.",
+        "quantidade_musicas": 14,
+        "capa": "./assets/images/taylor-swift-cover.png",
+        "cor": "#a5c9a5",
+        "cor_secundaria": "#c2edc2"  
+      },
+      {
+        "nome": "Fearless",
+        "descricao": "Lançado em 2008, este álbum consolidou Taylor Swift como uma estrela do country-pop, com sucessos como 'Love Story' e 'You Belong with Me'.",
+        "quantidade_musicas": 13,
+        "capa": "./assets/images/fearless-cover.png",
+        "cor": "#bb8f67",
+        "cor_secundaria": "#f0b886"  
+      },
+      {
+        "nome": "Speak Now",
+        "descricao": "Lançado em 2010, 'Speak Now' é um álbum totalmente escrito por Taylor Swift, contendo sucessos como 'Mine' e 'Back to December'.",
+        "quantidade_musicas": 14,
+        "capa": "./assets/images/speak-now-cover.jpg",
+        "cor": "#e6e6fa",
+        "cor_secundaria": "#d8bfd8"  
+      },
+      {
+        "nome": "Red",
+        "descricao": "Lançado em 2012, 'Red' marca uma transição para um som mais pop, com hits como 'We Are Never Ever Getting Back Together' e 'I Knew You Were Trouble'.",
+        "quantidade_musicas": 16,
+        "capa": "./assets/images/red-cover.png",
+        "cor": "#f60c0c",
+        "cor_secundaria": "#ec4d4d"  
+      },
+      {
+        "nome": "1989",
+        "descricao": "Lançado em 2014, '1989' é o primeiro álbum totalmente pop de Taylor Swift, incluindo hits como 'Shake It Off' e 'Blank Space'.",
+        "quantidade_musicas": 13,
+        "capa": "./assets/images/1989-cover.jpg",
+        "cor": "#add8e6",
+        "cor_secundaria": "#87ceeb"  
+      },
+      {
+        "nome": "Reputation",
+        "descricao": "Lançado em 2017, 'Reputation' apresenta um som mais sombrio e eletrônico, com sucessos como 'Look What You Made Me Do' e '...Ready for It?'.",
+        "quantidade_musicas": 15,
+        "capa": "./assets/images/reputation-cover.png",
+        "cor": "#696969",
+        "cor_secundaria": "#808080"  
+      },
+      {
+        "nome": "Lover",
+        "descricao": "Lançado em 2019, 'Lover' é um álbum mais otimista e colorido, com canções como 'ME!' e 'You Need to Calm Down'.",
+        "quantidade_musicas": 18,
+        "capa": "./assets/images/lover-cover.webp",
+        "cor": "#ffb6c1",
+        "cor_secundaria": "#ffc0cb"  
+      },
+      {
+        "nome": "Folklore",
+        "descricao": "Lançado em 2020, 'Folklore' é um álbum alternativo/indie folk, com uma atmosfera mais introspectiva, incluindo músicas como 'Cardigan' e 'Exile'.",
+        "quantidade_musicas": 16,
+        "capa": "./assets/images/folklore-cover.jpg",
+        "cor": "#d3d3d3",
+        "cor_secundaria": "#c0c0c0"  
+      },
+      {
+        "nome": "Evermore",
+        "descricao": "Lançado em 2020, 'Evermore' é considerado uma 'irmã' de 'Folklore', com um estilo similar e faixas como 'Willow' e 'Champagne Problems'.",
+        "quantidade_musicas": 15,
+        "capa": "./assets/images/evermore-cover.png",
+        "cor": "#a52a2a",
+        "cor_secundaria": "#b22222"  
+      },
+      {
+        "nome": "Midnights",
+        "descricao": "Lançado em 2022, 'Midnights' é um álbum conceitual que explora temas de insônia e autorreflexão, com faixas como 'Anti-Hero' e 'Lavender Haze'.",
+        "quantidade_musicas": 13,
+        "capa": "./assets/images/midnights-cover.png",
+        "cor": "#000080",
+        "cor_secundaria": "#b8acd1"  
+      },
+      {
+        "nome": "The Tortured Poets Department",
+        "descricao": "é composto por 16 faixas na edição padrão e apresenta dois artistas convidados—o rapper estadunidense Post Malone em 'Fortnight' e a banda britânica de indie rock Florence and the Machine, liderada pela cantora e compositora Florence Welch, na canção 'Florida!!!'.",
+        "quantidade_musicas": 31,
+        "capa": "./assets/images/ttdp-cover.png",
+        "cor": "#a79e8f",
+        "cor_secundaria": "#c0c0c0" 
+      }
+    ]
+  }
+  
