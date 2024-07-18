@@ -3,7 +3,7 @@ const contentTabContainer = document.getElementById('tab-content')
 const containerAlbumInfo = document.getElementById("content")
 const buttonsContainer = document.getElementById("tab-buttons")
 
-function fetchAlbuns(){
+function fetchAlbums(){
     const url = 'https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/taylor-albums.json'
     const ajax = new XMLHttpRequest()
 
@@ -13,7 +13,7 @@ function fetchAlbuns(){
 
     ajax.onreadystatechange = () => {
         if(ajax.readyState == 4 && ajax.status == 200){
-            loadButtons(JSON.parse(ajax.responseText).albuns)
+            loadButtons(JSON.parse(ajax.responseText).albums)
         }else{
             console.error("Json não pôde ser carregado.")
         }
@@ -22,14 +22,14 @@ function fetchAlbuns(){
     ajax.send()
 }
 
-function loadButtons(albuns){
+function loadButtons(albums){
     buttonsContainer.innerHTML = ""
 
-    albuns.forEach(album => {
+    albums.forEach(album => {
         const buttonElement = document.createElement("button")
         buttonElement.className = "tab-btn"
-        buttonElement.innerHTML = album.nome
-        buttonElement.style.backgroundColor = album.cor_secundaria
+        buttonElement.innerHTML = album.name
+        buttonElement.style.backgroundColor = album.secondary_color
 
         buttonElement.addEventListener("click", (e) => {
             e.preventDefault()
@@ -54,22 +54,22 @@ function setActiveButton(activeButton) {
 function loadAlbumInfo(album){
     const image = document.createElement("img")
     image.src = album.capa
-    image.alt = `Capa do album ${album.nome}`
+    image.alt = `Capa do album ${album.name}`
     image.className = "content-image"
 
     const infoContainerText = document.createElement("div")
     infoContainerText.className = 'infos'
 
     const albumTitle = document.createElement("h1")
-    albumTitle.innerText = album.nome
+    albumTitle.innerText = album.name
     albumTitle.className = "content-title"
 
     const albumDescription = document.createElement("p")
-    albumDescription.innerText = album.descricao
+    albumDescription.innerText = album.description
     albumDescription.className = "content-description"
 
     const songQuantity = document.createElement("span")
-    songQuantity.innerText = album.quantidade_musicas
+    songQuantity.innerText = album.songs_quantity
 
     const songQuantityContainer = document.createElement("p")
     songQuantityContainer.innerText = "Quantidade de músicas: "
@@ -90,8 +90,8 @@ function loadAlbumInfo(album){
     contentTabContainer.innerHTML = ""
     contentTabContainer.appendChild(albumContainer)
 
-    document.body.style.backgroundColor = album.cor
-    contentTabContainer.style.backgroundColor = album.cor_secundaria
+    document.body.style.backgroundColor = album.color
+    contentTabContainer.style.backgroundColor = album.secondary_color
 }
 
 function removeActive(elementsList){
@@ -100,4 +100,4 @@ function removeActive(elementsList){
     })
 }
 
-fetchAlbuns()
+fetchAlbums()

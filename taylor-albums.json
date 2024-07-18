@@ -1,92 +1,92 @@
 {
-    "albuns": [
+    "albums": [
       {
-        "nome": "Taylor Swift",
-        "descricao": "Álbum de estreia de Taylor Swift, lançado em 2006. É um álbum country-pop que inclui hits como 'Tim McGraw' e 'Teardrops on My Guitar'.",
-        "quantidade_musicas": 14,
-        "capa": "./assets/images/taylor-swift-cover.png",
-        "cor": "#a5c9a5",
-        "cor_secundaria": "#c2edc2"  
+        "name": "Taylor Swift",
+        "description": "Álbum de estreia de Taylor Swift, lançado em 2006. É um álbum country-pop que inclui hits como 'Tim McGraw' e 'Teardrops on My Guitar'.",
+        "songs_quantity": 14,
+        "cover": "./assets/images/taylor-swift-cover.png",
+        "color": "#a5c9a5",
+        "secondary_color": "#c2edc2"  
       },
       {
-        "nome": "Fearless",
-        "descricao": "Lançado em 2008, este álbum consolidou Taylor Swift como uma estrela do country-pop, com sucessos como 'Love Story' e 'You Belong with Me'.",
-        "quantidade_musicas": 13,
-        "capa": "./assets/images/fearless-cover.png",
-        "cor": "#bb8f67",
-        "cor_secundaria": "#f0b886"  
+        "name": "Fearless",
+        "description": "Lançado em 2008, este álbum consolidou Taylor Swift como uma estrela do country-pop, com sucessos como 'Love Story' e 'You Belong with Me'.",
+        "songs_quantity": 13,
+        "cover": "./assets/images/fearless-cover.png",
+        "color": "#bb8f67",
+        "secondary_color": "#f0b886"  
       },
       {
-        "nome": "Speak Now",
-        "descricao": "Lançado em 2010, 'Speak Now' é um álbum totalmente escrito por Taylor Swift, contendo sucessos como 'Mine' e 'Back to December'.",
-        "quantidade_musicas": 14,
-        "capa": "./assets/images/speak-now-cover.jpg",
-        "cor": "#e6e6fa",
-        "cor_secundaria": "#d8bfd8"  
+        "name": "Speak Now",
+        "description": "Lançado em 2010, 'Speak Now' é um álbum totalmente escrito por Taylor Swift, contendo sucessos como 'Mine' e 'Back to December'.",
+        "songs_quantity": 14,
+        "cover": "./assets/images/speak-now-cover.jpg",
+        "color": "#e6e6fa",
+        "secondary_color": "#d8bfd8"  
       },
       {
-        "nome": "Red",
-        "descricao": "Lançado em 2012, 'Red' marca uma transição para um som mais pop, com hits como 'We Are Never Ever Getting Back Together' e 'I Knew You Were Trouble'.",
-        "quantidade_musicas": 16,
-        "capa": "./assets/images/red-cover.png",
-        "cor": "#f60c0c",
-        "cor_secundaria": "#ec4d4d"  
+        "name": "Red",
+        "description": "Lançado em 2012, 'Red' marca uma transição para um som mais pop, com hits como 'We Are Never Ever Getting Back Together' e 'I Knew You Were Trouble'.",
+        "songs_quantity": 16,
+        "cover": "./assets/images/red-cover.png",
+        "color": "#f60c0c",
+        "secondary_color": "#ec4d4d"  
       },
       {
-        "nome": "1989",
-        "descricao": "Lançado em 2014, '1989' é o primeiro álbum totalmente pop de Taylor Swift, incluindo hits como 'Shake It Off' e 'Blank Space'.",
-        "quantidade_musicas": 13,
-        "capa": "./assets/images/1989-cover.jpg",
-        "cor": "#add8e6",
-        "cor_secundaria": "#87ceeb"  
+        "name": "1989",
+        "description": "Lançado em 2014, '1989' é o primeiro álbum totalmente pop de Taylor Swift, incluindo hits como 'Shake It Off' e 'Blank Space'.",
+        "songs_quantity": 13,
+        "cover": "./assets/images/1989-cover.jpg",
+        "color": "#add8e6",
+        "secondary_color": "#87ceeb"  
       },
       {
-        "nome": "Reputation",
-        "descricao": "Lançado em 2017, 'Reputation' apresenta um som mais sombrio e eletrônico, com sucessos como 'Look What You Made Me Do' e '...Ready for It?'.",
-        "quantidade_musicas": 15,
-        "capa": "./assets/images/reputation-cover.png",
-        "cor": "#696969",
-        "cor_secundaria": "#808080"  
+        "name": "Reputation",
+        "description": "Lançado em 2017, 'Reputation' apresenta um som mais sombrio e eletrônico, com sucessos como 'Look What You Made Me Do' e '...Ready for It?'.",
+        "songs_quantity": 15,
+        "cover": "./assets/images/reputation-cover.png",
+        "color": "#696969",
+        "secondary_color": "#808080"  
       },
       {
-        "nome": "Lover",
-        "descricao": "Lançado em 2019, 'Lover' é um álbum mais otimista e colorido, com canções como 'ME!' e 'You Need to Calm Down'.",
-        "quantidade_musicas": 18,
-        "capa": "./assets/images/lover-cover.webp",
-        "cor": "#ffb6c1",
-        "cor_secundaria": "#ffc0cb"  
+        "name": "Lover",
+        "description": "Lançado em 2019, 'Lover' é um álbum mais otimista e colorido, com canções como 'ME!' e 'You Need to Calm Down'.",
+        "songs_quantity": 18,
+        "cover": "./assets/images/lover-cover.webp",
+        "color": "#ffb6c1",
+        "secondary_color": "#ffc0cb"  
       },
       {
-        "nome": "Folklore",
-        "descricao": "Lançado em 2020, 'Folklore' é um álbum alternativo/indie folk, com uma atmosfera mais introspectiva, incluindo músicas como 'Cardigan' e 'Exile'.",
-        "quantidade_musicas": 16,
-        "capa": "./assets/images/folklore-cover.jpg",
-        "cor": "#d3d3d3",
-        "cor_secundaria": "#c0c0c0"  
+        "name": "Folklore",
+        "description": "Lançado em 2020, 'Folklore' é um álbum alternativo/indie folk, com uma atmosfera mais introspectiva, incluindo músicas como 'Cardigan' e 'Exile'.",
+        "songs_quantity": 16,
+        "cover": "./assets/images/folklore-cover.jpg",
+        "color": "#d3d3d3",
+        "secondary_color": "#c0c0c0"  
       },
       {
-        "nome": "Evermore",
-        "descricao": "Lançado em 2020, 'Evermore' é considerado uma 'irmã' de 'Folklore', com um estilo similar e faixas como 'Willow' e 'Champagne Problems'.",
-        "quantidade_musicas": 15,
-        "capa": "./assets/images/evermore-cover.png",
-        "cor": "#a52a2a",
-        "cor_secundaria": "#b22222"  
+        "name": "Evermore",
+        "description": "Lançado em 2020, 'Evermore' é considerado uma 'irmã' de 'Folklore', com um estilo similar e faixas como 'Willow' e 'Champagne Problems'.",
+        "songs_quantity": 15,
+        "cover": "./assets/images/evermore-cover.png",
+        "color": "#a52a2a",
+        "secondary_color": "#b22222"  
       },
       {
-        "nome": "Midnights",
-        "descricao": "Lançado em 2022, 'Midnights' é um álbum conceitual que explora temas de insônia e autorreflexão, com faixas como 'Anti-Hero' e 'Lavender Haze'.",
-        "quantidade_musicas": 13,
-        "capa": "./assets/images/midnights-cover.png",
-        "cor": "#000080",
-        "cor_secundaria": "#b8acd1"  
+        "name": "Midnights",
+        "description": "Lançado em 2022, 'Midnights' é um álbum conceitual que explora temas de insônia e autorreflexão, com faixas como 'Anti-Hero' e 'Lavender Haze'.",
+        "songs_quantity": 13,
+        "cover": "./assets/images/midnights-cover.png",
+        "color": "#000080",
+        "secondary_color": "#b8acd1"  
       },
       {
-        "nome": "The Tortured Poets Department",
-        "descricao": "é composto por 16 faixas na edição padrão e apresenta dois artistas convidados—o rapper estadunidense Post Malone em 'Fortnight' e a banda britânica de indie rock Florence and the Machine, liderada pela cantora e compositora Florence Welch, na canção 'Florida!!!'.",
-        "quantidade_musicas": 31,
-        "capa": "./assets/images/ttdp-cover.png",
-        "cor": "#a79e8f",
-        "cor_secundaria": "#c0c0c0" 
+        "name": "The Tortured Poets Department",
+        "description": "é composto por 16 faixas na edição padrão e apresenta dois artistas convidados—o rapper estadunidense Post Malone em 'Fortnight' e a banda britânica de indie rock Florence and the Machine, liderada pela cantora e compositora Florence Welch, na canção 'Florida!!!'.",
+        "songs_quantity": 31,
+        "cover": "./assets/images/ttdp-cover.png",
+        "color": "#a79e8f",
+        "secondary_color": "#c0c0c0" 
       }
     ]
   }
