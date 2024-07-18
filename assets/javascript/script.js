@@ -4,10 +4,12 @@ const containerAlbumInfo = document.getElementById("content")
 const buttonsContainer = document.getElementById("tab-buttons")
 
 function fetchAlbuns(){
-    const url = '../../taylor-albums.json'
+    const url = 'https://yasmin-carloto.github.io/Projeto-Navegacao-com-Abas/taylor-albums.json'
     const ajax = new XMLHttpRequest()
 
-    ajax.open('GET', "../../taylor-albums.json")
+// "../../taylor-albums.json"
+
+    ajax.open('GET', url)
 
     ajax.onreadystatechange = () => {
         if(ajax.readyState == 4 && ajax.status == 200){
